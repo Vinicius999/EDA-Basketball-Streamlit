@@ -19,7 +19,7 @@ selected_year = st.sidebar.selectbox('Year', list(reversed(range(1950, 2020))))
 # Web scrapping of NBA players stats
 @st.cache
 def load_data(year):
-    url = f'https://www.basketball-reference.com/leagues/NBA_{str(year)}_per_game.html'
+    url = "https://www.basketball-reference.com/leagues/NBA_" + str(year) + "_per_game.html"
     html = pd.read_html(url, header = 0)
     df = html[0]
     raw = df.drop(df[df.Age == 'Age'].index) # Deleting repeating headers in content
@@ -28,7 +28,8 @@ def load_data(year):
     
     return playerstats
 
-
 playerstats = load_data(selected_year)
  
-
+# Sidebar - Team selection
+sorted_unique_team = sorted(playerstats.Tm.unique())
+selected_team = st.sidebar.multiselect('Team', sorted_unique_team, sorted_unique_team)
