@@ -26,7 +26,9 @@ def load_data(year):
     raw = df.drop(df[df.Age == 'Age'].index) # Deletes repeating headers in content
     raw = raw.fillna(0)
     playerstats = raw.drop(['Rk'], axis=1)
+    
     return playerstats
+
 playerstats = load_data(selected_year)
 
 # Sidebar - Team selection
@@ -43,3 +45,15 @@ df_selected_team = playerstats[(playerstats['Tm'].isin(selected_team)) & (player
 st.header('Display Player Stats of Selected Team(s)')
 st.write(f'Data Dimension: {str(df_selected_team.shape[0])} rows and {str(df_selected_team.shape[1])} columns.')
 st.dataframe(df_selected_team)
+
+# Download NBA player stats data
+# https://discuss.streamlit.io/t/how-to-download-file-in-streamlit/1806
+def filedownload(df):
+    csv = df.to_csv(index=False)
+    b64 = base64.b64encode(csv.encode()).decode()  # strings <-> bytes conversions
+    href = f'<a href="data:file/csv;base64,{b64}" download="playerstats.csv">Download CSV File</a>'
+    
+    return href
+
+st.markdown(filedownload(df_selected_team), unsafe_allow_html=True)
+
