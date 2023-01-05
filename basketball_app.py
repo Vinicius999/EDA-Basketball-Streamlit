@@ -1,11 +1,10 @@
-
-
 import streamlit as st
 import pandas as pd
+import numpy as np
 import base64
 import matplotlib.pyplot as plt
 import seaborn as sns
-import numpy as np
+
 
 st.title('NBA Player Stats Explorer')
 
@@ -33,3 +32,12 @@ playerstats = load_data(selected_year)
 # Sidebar - Team selection
 sorted_unique_team = sorted(playerstats.Tm.unique())
 selected_team = st.sidebar.multiselect('Team', sorted_unique_team, sorted_unique_team)
+
+# Sidebar - Position selection
+unique_pos = ['C', 'PF', 'SF', 'PG', 'SG']
+selected_pos = st.sidebar.multiselect('Position', unique_pos, unique_pos)
+
+# Filtering data
+df_selected_team = playerstats[(playerstats['Tm'].isin(selected_team)) & (playerstats['Pos'].isin(selected_pos))]
+
+
