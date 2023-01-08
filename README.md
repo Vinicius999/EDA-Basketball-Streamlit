@@ -42,7 +42,7 @@ streamlit run basketball-app.py
 
 - Original data (2022):
 
-  ![Original data](https://github.com/Vinicius999/Dashboard-de-Vendas/blob/main/images/data-image-website.png)
+  ![Original data](https://github.com/Vinicius999/EDA-Basketball-Streamlit/blob/main/images/data-image-website.png)
 
 
 
