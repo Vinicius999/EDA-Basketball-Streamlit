@@ -1,1 +1,1 @@
-# EDA-Basketball-Streamlit
+<h1 align="center"> &#127936; &nbsp; EDA Basketball &nbsp; &#127936; </h1>
