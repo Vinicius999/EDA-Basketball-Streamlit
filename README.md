@@ -48,3 +48,4 @@ streamlit run basketball-app.py
 
 ## Web App
 
+<h5 align="center"> &#128679; Projeto &#128640; em construção... &#128679; </h5>
