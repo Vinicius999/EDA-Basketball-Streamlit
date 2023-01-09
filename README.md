@@ -48,4 +48,20 @@ streamlit run basketball-app.py
 
 ## Web App
 
+<div>
+    <h5>Sidebar</h5>
+	In the sidebar we have the User Input Features**, where we can filter the results presented based on 3 different filters:
+    <ul>
+        <li>Year</li>
+        <li>Team</li>
+        <li>Position</li>
+    </ul>
+    In the animation below, we can see the sidebar and examples of how filters can be applied.
+    <img src="https://github.com/Vinicius999/EDA-Basketball-Streamlit/blob/main/images/sidebar.gif">
+</div>
+
+
+
+
+
 <h5 align="center"> &#128679; Projeto &#128640; em construção... &#128679; </h5>
