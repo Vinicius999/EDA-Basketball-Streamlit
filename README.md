@@ -50,7 +50,7 @@ streamlit run basketball-app.py
 
 <div>
     <h5>Sidebar</h5>
-	In the sidebar we have the User Input Features**, where we can filter the results presented based on 3 different filters:
+	In the sidebar we have the User Input Features, where we can filter the results presented based on 3 different filters:
     <ul>
         <li>Year</li>
         <li>Team</li>
