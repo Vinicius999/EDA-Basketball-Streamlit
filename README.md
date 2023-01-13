@@ -17,7 +17,7 @@ To install all the necessary libraries to run this project, we will use the [`re
 pip install -r requirements.txt
 ```
 
-After that we can run the [`basketball-app.py`](https://github.com/Vinicius999/EDA-Basketball-Streamlit/blob/main/basketball-app.py) file using the command:
+After that we can run the [`basketball-app.py`](https://github.com/Vinicius999/EDA-Basketball-Streamlit/blob/main/basketball_app.py) file using the command:
 
 ```
 streamlit run basketball-app.py
@@ -49,7 +49,7 @@ streamlit run basketball-app.py
 ## Web App
 
 <div>
-    <h5>Sidebar</h5>
+    <h4>Sidebar</h4>
 	In the sidebar we have the User Input Features, where we can filter the results presented based on 3 different filters:
     <ul>
         <li>Year</li>
@@ -60,6 +60,21 @@ streamlit run basketball-app.py
     <img src="https://github.com/Vinicius999/EDA-Basketball-Streamlit/blob/main/images/sidebar.gif">
 </div>
 
+
+
+<div>
+    <h4>Display and Download Data</h4>
+	Inthe animation below, we can see...
+    <img src="https://github.com/Vinicius999/EDA-Basketball-Streamlit/blob/main/images/table-and-download.gif">
+</div>
+
+
+
+<div>
+    <h4>Intercorrelation Heatmap Button</h4>
+	Inthe animation below, we can see...
+    <img src="https://github.com/Vinicius999/EDA-Basketball-Streamlit/blob/main/images/heatmap-button.gif">
+</div>
 
 
 
