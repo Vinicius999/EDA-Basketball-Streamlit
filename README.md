@@ -70,7 +70,7 @@ streamlit run basketball-app.py
 	<p>
 		The table with the results is interactive and we can sort the data displayed based on any of the columns in ascending or descending order. In addition, we can expand the table to a full screen view and we can also select one or several cells to copy and paste the data contained in it.
 	</p>
-	<p>To download the table with the filtered data, we can use the Download CSV File button.</p>
+	<p>To download the table with the filtered data, we can use the <strong>Download CSV File</strong> button.</p>
 	The demo below shows the interactions with the results table, as well as how to download the table.
     </p>
     <img src="https://github.com/Vinicius999/EDA-Basketball-Streamlit/blob/main/images/table-and-download.gif">
