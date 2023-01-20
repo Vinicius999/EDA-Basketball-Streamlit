@@ -1,4 +1,4 @@
-<h1 align="center"> &#127936; &nbsp; &nbsp; EDA Basketball &nbsp; &nbsp; &#127936; </h1>
+<h1 align="center"> &#127936; &nbsp; EDA Basketball &nbsp; &#127936; </h1>
 
 <p align="center">Web app developed with Streamlit containing a simple exploratory data analysis (EDA) about NBA data.<p>
 
