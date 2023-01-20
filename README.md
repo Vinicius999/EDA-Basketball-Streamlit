@@ -50,33 +50,40 @@ streamlit run basketball-app.py
 
 <div>
     <h4>Sidebar</h4>
-	In the sidebar we have the User Input Features, where we can filter the results presented based on 3 different filters:
+    <p>
+	In the sidebar we have the <strong>User Input Features</strong>, where we can filter the results presented based on 3 different filters:
     <ul>
         <li>Year</li>
         <li>Team</li>
         <li>Position</li>
     </ul>
-    In the animation below, we can see the sidebar and examples of how filters can be applied.
+    In the demo below we can see the sidebar and how filters can be applied.
+    </p>
     <img src="https://github.com/Vinicius999/EDA-Basketball-Streamlit/blob/main/images/sidebar.gif">
 </div>
 
 
-
 <div>
     <h4>Display and Download Data</h4>
-	Inthe animation below, we can see...
+    <p>
+    	<p>By applying the filters, we can view the resulting data shown in a table (dataframe).</p>
+	<p>
+		The table with the results is interactive and we can sort the data displayed based on any of the columns in ascending or descending order. In addition, we can expand the table to a full screen view and we can also select one or several cells to copy and paste the data contained in it.
+	</p>
+	<p>To download the table with the filtered data, we can use the Download CSV File button.</p>
+	The demo below shows the interactions with the results table, as well as how to download the table.
+    </p>
     <img src="https://github.com/Vinicius999/EDA-Basketball-Streamlit/blob/main/images/table-and-download.gif">
 </div>
 
 
-
 <div>
     <h4>Intercorrelation Heatmap Button</h4>
-	Inthe animation below, we can see...
+    <p>
+    	In the animation below, we can see...
+    </p>
     <img src="https://github.com/Vinicius999/EDA-Basketball-Streamlit/blob/main/images/heatmap-button.gif">
 </div>
-
-
 
 
 <h5 align="center"> &#128679; Projeto &#128640; em construção... &#128679; </h5>
