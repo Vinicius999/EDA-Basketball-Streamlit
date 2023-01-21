@@ -49,7 +49,7 @@ streamlit run basketball-app.py
 ## Web App
 
 <div>
-    <h4>Sidebar</h4>
+    <h3>Sidebar</h3>
     <p>
 	In the sidebar we have the <strong>User Input Features</strong>, where we can filter the results presented based on 3 different filters:
     <ul>
@@ -64,7 +64,7 @@ streamlit run basketball-app.py
 
 
 <div>
-    <h4>Display and Download Data</h4>
+    <h3>Display and Download Data</h3>
     <p>
     	<p>By applying the filters, we can view the resulting data shown in a table (dataframe).</p>
 	<p>
@@ -78,7 +78,7 @@ streamlit run basketball-app.py
 
 
 <div>
-    <h4>Intercorrelation Heatmap Button</h4>
+    <h3>Intercorrelation Heatmap Button</h3>
     <p>
     	In the animation below, we can see...
     </p>
