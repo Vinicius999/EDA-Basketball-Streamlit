@@ -80,7 +80,8 @@ streamlit run basketball-app.py
 <div>
     <h3>Intercorrelation Heatmap Button</h3>
     <p>
-    	In the animation below, we can see...
+    	<p>In addition to the table with the filtered data, we can also visualize an intercorrelation matrix of these data graphically.</p>
+    	<p>We can view this graph through the "intercorrlation heatmap" button as shown in the demonstration below.</p>
     </p>
     <img src="https://github.com/Vinicius999/EDA-Basketball-Streamlit/blob/main/images/heatmap-button.gif">
 </div>
