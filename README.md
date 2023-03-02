@@ -28,7 +28,7 @@ streamlit run basketball-app.py
 ## Technologies
 
 <p style='margin: 16px 4px 32px;'>
-    <a href="https://www.python.org/" target="_blank" rel="noreferrer">
+    <a href="https://www.python.org/" target="_blank" rel="noopener noreferrer">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Vini-python" width="40" height="40" />
     </a>
 	<a href="https://streamlit.io/" target="_blank" rel="noreferrer">
