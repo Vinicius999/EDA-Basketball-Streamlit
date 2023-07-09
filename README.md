@@ -17,10 +17,10 @@ To install all the necessary libraries to run this project, we will use the [`re
 pip install -r requirements.txt
 ```
 
-After that we can run the [`basketball-app.py`](https://github.com/Vinicius999/EDA-Basketball-Streamlit/blob/main/basketball-app.py) file using the command:
+After that we can run the [`main.py`](https://github.com/Vinicius999/EDA-Basketball-Streamlit/blob/main/main.py) file using the command:
 
 ```
-streamlit run basketball-app.py
+streamlit run main.py
 ```
 
 
