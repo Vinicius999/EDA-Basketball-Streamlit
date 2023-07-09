@@ -60,8 +60,15 @@ st.markdown(filedownload(df_selected_team), unsafe_allow_html=True)
 # Heatmap
 if st.button('Intercorralation Heatmap'):
     st.header('Intercorralation Matrix Heatmap')
-    df_selected_team.to_csv('output.csv', index=False)
-    df = pd.read_csv('output.csv')
+    #df_selected_team.to_csv('output.csv', index=False)
+    #df = pd.read_csv('output.csv')
+    df = df_selected_team.copy()
+    
+    for column in df.columns:
+        try:
+            df[column] = df[column].astype(float)
+        except:
+            df = df.drop(column, axis=1)
     
     corr = df.corr()
     mask = np.zeros_like(corr)
