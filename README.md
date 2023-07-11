@@ -11,7 +11,11 @@
 
 ## Demo App
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://eda-basketball.streamlit.app/)
+<p style='margin: 16px 4px 32px;'>
+    <a href="https://eda-basketball.streamlit.app/" target="_blank" rel="noopener noreferrer">
+        <img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Demo-app" width="180" height="40" />
+    </a>
+</p>
 
 
 
