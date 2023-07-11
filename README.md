@@ -1,13 +1,19 @@
 <h1 align="center"> &#127936; &nbsp; EDA Basketball &nbsp; &#127936; </h1>
 
 <p align="center">Web app developed with Streamlit containing a simple exploratory data analysis (EDA) about NBA data.<p>
-
 <p align="center">
-    <a href="##Run project">Run Project</a> |
-    <a href="##Technologies">Technologies</a> |
-    <a href="##Data">Data</a> |
-    <a href="##Web App">Web App</a>
+    <a href="https://github.com/Vinicius999/EDA-Basketball-Streamlit#demo-app">Demo App</a> |
+    <a href="https://github.com/Vinicius999/EDA-Basketball-Streamlit#run-project">Run Project</a> |
+    <a href="https://github.com/Vinicius999/EDA-Basketball-Streamlit#technologies">Technologies</a> |
+    <a href="https://github.com/Vinicius999/EDA-Basketball-Streamlit#data">Data</a> |
+    <a href="https://github.com/Vinicius999/EDA-Basketball-Streamlit#web-app">Web App</a>
 </p>
+
+## Demo App
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://eda-basketball.streamlit.app/)
+
+
 
 ## Run Project
 
